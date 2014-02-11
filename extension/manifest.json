@@ -1,0 +1,25 @@
+{
+  "name": "Trollock",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "You have been trolled.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "TROLLOCK"
+  },
+  "permissions": [
+    "activeTab",
+    "http://localhost:1337/"
+  ]
+}
